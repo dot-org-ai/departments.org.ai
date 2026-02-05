@@ -79,10 +79,10 @@ Office operations, space planning, maintenance, and workplace services
 
 ```mermaid
 graph LR
-  submitWorkOrder --> assignTechnician
-  assignTechnician --> performMaintenance
-  performMaintenance --> inspectWork
-  inspectWork --> closeWorkOrder
+  submitWorkOrder --> procureService
+  procureService --> scheduleInspection
+  scheduleInspection --> approveAccessRequest
+  approveAccessRequest --> closeWorkOrder
 ```
 
 ## Actor Relationships
@@ -109,7 +109,7 @@ graph TD
 |-----------|-------------|
 | Real Estate | Coordinates on site selection and lease requirements |
 | Procurement & Asset Management | Partners on vendor sourcing and asset tracking |
-| Health, Safety & Environment | Aligns on workplace safety standards and compliance |
+| People Operations | Coordinates on workplace safety programs and employee wellbeing initiatives |
 
 ## Usage
 

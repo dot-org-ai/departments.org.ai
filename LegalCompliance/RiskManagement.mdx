@@ -82,9 +82,9 @@ Enterprise risk assessment, mitigation planning, and business continuity
 graph LR
   identifyRisk --> assessRisk
   assessRisk --> assignRiskOwner
-  assignRiskOwner --> developMitigation
-  developMitigation --> monitorAndReport
-  monitorAndReport --> escalateRisk
+  assignRiskOwner --> testContinuityPlan
+  testContinuityPlan --> processInsuranceClaim
+  processInsuranceClaim --> escalateRisk
 ```
 
 ## Actor Relationships
@@ -110,7 +110,7 @@ graph TD
 |-----------|-------------|
 | Regulatory Compliance | Coordinates on compliance risks and control testing |
 | Corporate Legal | Partners on litigation risk assessment and insurance claims |
-| Information Security | Aligns on cybersecurity risk identification and mitigation |
+| Cybersecurity | Aligns on cybersecurity risk identification and mitigation |
 
 ## Usage
 
