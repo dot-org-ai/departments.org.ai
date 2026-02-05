@@ -1,0 +1,82 @@
+code	name	level	category	industries	filePath
+BANKOPS	Banking Operations	Category		52	BankingOperations/index.mdx
+UW	Underwriting	Department	Banking Operations	5221,5222,5241	BankingOperations/Underwriting.mdx
+LOAN	Loan Servicing	Department	Banking Operations	5221,5222	BankingOperations/LoanServicing.mdx
+CRISK	Credit Risk	Department	Banking Operations	5221,5222	BankingOperations/CreditRisk.mdx
+TRADE	Trading Desk	Department	Banking Operations	5231	BankingOperations/TradingDesk.mdx
+TRUST	Trust Services	Department	Banking Operations	5221,5239	BankingOperations/TrustServices.mdx
+MORT	Mortgage Operations	Department	Banking Operations	52221	BankingOperations/MortgageOperations.mdx
+AML	BSA/AML Compliance	Department	Banking Operations	5221	BankingOperations/BsaAmlCompliance.mdx
+AMGMT	Asset Management	Department	Banking Operations	5239	BankingOperations/AssetManagement.mdx
+WMGMT	Wealth Management	Department	Banking Operations	5231,5239	BankingOperations/WealthManagement.mdx
+INSOPS	Insurance Operations	Category		524	InsuranceOperations/index.mdx
+CLM	Claims	Department	Insurance Operations	5241	InsuranceOperations/Claims.mdx
+ACT	Actuarial	Department	Insurance Operations	5241	InsuranceOperations/Actuarial.mdx
+POLAD	Policy Administration	Department	Insurance Operations	5241	InsuranceOperations/PolicyAdministration.mdx
+REINS	Reinsurance	Department	Insurance Operations	524130	InsuranceOperations/Reinsurance.mdx
+SIU	Special Investigations Unit	Department	Insurance Operations	5241	InsuranceOperations/SpecialInvestigationsUnit.mdx
+CLINOPS	Clinical Operations	Category		62	ClinicalOperations/index.mdx
+NURS	Nursing	Department	Clinical Operations	6221,6222,6223,6231	ClinicalOperations/Nursing.mdx
+PHARM	Pharmacy	Department	Clinical Operations	6221,6222,6223	ClinicalOperations/Pharmacy.mdx
+HIM	Medical Records	Department	Clinical Operations	62	ClinicalOperations/MedicalRecords.mdx
+PSAFE	Patient Safety	Department	Clinical Operations	622	ClinicalOperations/PatientSafety.mdx
+RAD	Radiology	Department	Clinical Operations	622,6215	ClinicalOperations/Radiology.mdx
+LAB	Laboratory	Department	Clinical Operations	622,6215	ClinicalOperations/Laboratory.mdx
+ED	Emergency Department	Department	Clinical Operations	6221	ClinicalOperations/EmergencyDepartment.mdx
+ADMIT	Admissions	Department	Clinical Operations	622	ClinicalOperations/Admissions.mdx
+CMGMT	Case Management	Department	Clinical Operations	622,621	ClinicalOperations/CaseManagement.mdx
+IC	Infection Control	Department	Clinical Operations	622,6231	ClinicalOperations/InfectionControl.mdx
+CRED	Credentialing	Department	Clinical Operations	62	ClinicalOperations/Credentialing.mdx
+RCM	Revenue Cycle Management	Department	Clinical Operations	62	ClinicalOperations/RevenueCycleManagement.mdx
+PLANTOPS	Plant Operations	Category		31,32,33	PlantOperations/index.mdx
+PROD	Production Control	Department	Plant Operations	31,32,33	PlantOperations/ProductionControl.mdx
+QC	Quality Control	Department	Plant Operations	31,32,33	PlantOperations/QualityControl.mdx
+TOOL	Tooling and Die	Department	Plant Operations	332,326	PlantOperations/ToolingAndDie.mdx
+MENG	Maintenance Engineering	Department	Plant Operations	31,32,33	PlantOperations/MaintenanceEngineering.mdx
+PENG	Process Engineering	Department	Plant Operations	31,32,33	PlantOperations/ProcessEngineering.mdx
+IENG	Industrial Engineering	Department	Plant Operations	31,32,33	PlantOperations/IndustrialEngineering.mdx
+EHS	Environmental Health & Safety	Department	Plant Operations	31,32,33	PlantOperations/EnvironmentalHealthAndSafety.mdx
+MATL	Materials Management	Department	Plant Operations	31,32,33	PlantOperations/MaterialsManagement.mdx
+SCHED	Production Scheduling	Department	Plant Operations	31,32,33	PlantOperations/ProductionScheduling.mdx
+RSHIP	Receiving and Shipping	Department	Plant Operations	31,32,33	PlantOperations/ReceivingAndShipping.mdx
+LTEST	Laboratory Testing	Department	Plant Operations	311,325,3254	PlantOperations/LaboratoryTesting.mdx
+TRANSOPS	Transport Operations	Category		48,49	TransportOperations/index.mdx
+FOPS	Flight Operations	Department	Transport Operations	4811	TransportOperations/FlightOperations.mdx
+CREW	Crew Scheduling	Department	Transport Operations	4811	TransportOperations/CrewScheduling.mdx
+GOPS	Ground Operations	Department	Transport Operations	4811	TransportOperations/GroundOperations.mdx
+DISP	Dispatch	Department	Transport Operations	484,4811,482	TransportOperations/Dispatch.mdx
+FLEET	Fleet Management	Department	Transport Operations	484,485	TransportOperations/FleetManagement.mdx
+TERM	Terminal Operations	Department	Transport Operations	482,483,4811	TransportOperations/TerminalOperations.mdx
+DOTS	DOT Safety Compliance	Department	Transport Operations	48,49	TransportOperations/DotSafetyCompliance.mdx
+CONSTOPS	Construction Operations	Category		23	ConstructionOperations/index.mdx
+EST	Estimating	Department	Construction Operations	23	ConstructionOperations/Estimating.mdx
+FLDOP	Field Operations	Department	Construction Operations	23	ConstructionOperations/FieldOperations.mdx
+PCTRL	Project Controls	Department	Construction Operations	23	ConstructionOperations/ProjectControls.mdx
+CSAFE	Construction Safety	Department	Construction Operations	23	ConstructionOperations/ConstructionSafety.mdx
+SUBM	Subcontractor Management	Department	Construction Operations	2361,2362	ConstructionOperations/SubcontractorManagement.mdx
+BIM	Building Information Modeling	Department	Construction Operations	23	ConstructionOperations/BuildingInformationModeling.mdx
+HOSPOPS	Hospitality Operations	Category		72	HospitalityOperations/index.mdx
+FB	Food and Beverage	Department	Hospitality Operations	7211,7221,7222,7223	HospitalityOperations/FoodAndBeverage.mdx
+HKEEP	Housekeeping	Department	Hospitality Operations	7211	HospitalityOperations/Housekeeping.mdx
+FDESK	Front Desk	Department	Hospitality Operations	7211	HospitalityOperations/FrontDesk.mdx
+RESV	Reservations	Department	Hospitality Operations	7211	HospitalityOperations/Reservations.mdx
+BANQ	Banquets and Events	Department	Hospitality Operations	7211,72232	HospitalityOperations/BanquetsAndEvents.mdx
+REVMG	Revenue Management	Department	Hospitality Operations	7211	HospitalityOperations/RevenueManagement.mdx
+RETOPS	Retail Operations	Category		44,45	RetailOperations/index.mdx
+MERCH	Merchandising	Department	Retail Operations	44,45	RetailOperations/Merchandising.mdx
+STORE	Store Operations	Department	Retail Operations	44,45	RetailOperations/StoreOperations.mdx
+LP	Loss Prevention	Department	Retail Operations	44,45	RetailOperations/LossPrevention.mdx
+VMERCH	Visual Merchandising	Department	Retail Operations	4481,4521	RetailOperations/VisualMerchandising.mdx
+ECOM	Ecommerce	Department	Retail Operations	44,45	RetailOperations/Ecommerce.mdx
+ACADOPS	Academic Operations	Category		61	AcademicOperations/index.mdx
+ADMIS	Admissions	Department	Academic Operations	6113	AcademicOperations/Admissions.mdx
+REG	Registrar	Department	Academic Operations	6113	AcademicOperations/Registrar.mdx
+ACAD	Academic Affairs	Department	Academic Operations	6113	AcademicOperations/AcademicAffairs.mdx
+STUDS	Student Services	Department	Academic Operations	6113	AcademicOperations/StudentServices.mdx
+FAID	Financial Aid	Department	Academic Operations	6113	AcademicOperations/FinancialAid.mdx
+CURR	Curriculum Development	Department	Academic Operations	611	AcademicOperations/CurriculumDevelopment.mdx
+PUBOPS	Public Service Operations	Category		92	PublicServiceOperations/index.mdx
+CONST	Constituent Services	Department	Public Service Operations	92	PublicServiceOperations/ConstituentServices.mdx
+PERM	Permitting and Licensing	Department	Public Service Operations	92	PublicServiceOperations/PermittingAndLicensing.mdx
+PUBWK	Public Works	Department	Public Service Operations	92	PublicServiceOperations/PublicWorks.mdx
+CODE	Code Enforcement	Department	Public Service Operations	92	PublicServiceOperations/CodeEnforcement.mdx

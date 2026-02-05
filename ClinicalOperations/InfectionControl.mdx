@@ -1,0 +1,89 @@
+---
+name: 'Infection Control'
+code: 'IC'
+level: Department
+category: 'Clinical Operations'
+parent: 'Clinical Operations'
+apqcCategories: ['05', '06']
+industries: ['622', '6231']
+minTier: large
+---
+
+# Infection Control
+
+> Business-as-Code definition for the Infection Control department. Models responsibilities, actions, events, and searches.
+
+## Overview
+
+Infection surveillance, outbreak investigation, hand hygiene compliance, and antimicrobial stewardship
+
+## Responsibilities
+
+| Responsibility | Description |
+|---------------|-------------|
+| TODO | TODO |
+
+## Roles
+
+| Role | Description |
+|------|-------------|
+| TODO | TODO |
+
+## Entities
+
+| Entity | Description |
+|--------|-------------|
+| TODO | TODO |
+
+## Actions
+
+| Action | Description |
+|--------|-------------|
+| TODO | TODO |
+
+## Events
+
+| Event | Description |
+|-------|-------------|
+| TODO | TODO |
+
+## Searches
+
+| Search | Description |
+|--------|-------------|
+| TODO | TODO |
+
+## Workflow
+
+```mermaid
+graph LR
+  TODO
+```
+
+## Actor Relationships
+
+```mermaid
+graph TD
+  TODO
+```
+
+## Related Processes
+
+| Process | APQC ID | Relationship |
+|---------|---------|-------------|
+| TODO | TODO | TODO |
+
+## Related Departments
+
+| Department | Relationship |
+|-----------|-------------|
+| TODO | TODO |
+
+## Usage
+
+```typescript
+import { db } from '@headlessly/db'
+
+const dept = await db.departments.get('infectionControl')
+// TODO: Example queries
+```

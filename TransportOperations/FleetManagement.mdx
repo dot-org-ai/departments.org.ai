@@ -1,0 +1,89 @@
+---
+name: 'Fleet Management'
+code: 'FLEET'
+level: Department
+category: 'Transport Operations'
+parent: 'Transport Operations'
+apqcCategories: ['04', '05']
+industries: ['484', '485']
+minTier: medium
+---
+
+# Fleet Management
+
+> Business-as-Code definition for the Fleet Management department. Models responsibilities, actions, events, and searches.
+
+## Overview
+
+Vehicle acquisition, maintenance scheduling, fuel management, and fleet lifecycle optimization
+
+## Responsibilities
+
+| Responsibility | Description |
+|---------------|-------------|
+| TODO | TODO |
+
+## Roles
+
+| Role | Description |
+|------|-------------|
+| TODO | TODO |
+
+## Entities
+
+| Entity | Description |
+|--------|-------------|
+| TODO | TODO |
+
+## Actions
+
+| Action | Description |
+|--------|-------------|
+| TODO | TODO |
+
+## Events
+
+| Event | Description |
+|-------|-------------|
+| TODO | TODO |
+
+## Searches
+
+| Search | Description |
+|--------|-------------|
+| TODO | TODO |
+
+## Workflow
+
+```mermaid
+graph LR
+  TODO
+```
+
+## Actor Relationships
+
+```mermaid
+graph TD
+  TODO
+```
+
+## Related Processes
+
+| Process | APQC ID | Relationship |
+|---------|---------|-------------|
+| TODO | TODO | TODO |
+
+## Related Departments
+
+| Department | Relationship |
+|-----------|-------------|
+| TODO | TODO |
+
+## Usage
+
+```typescript
+import { db } from '@headlessly/db'
+
+const dept = await db.departments.get('fleetManagement')
+// TODO: Example queries
+```
