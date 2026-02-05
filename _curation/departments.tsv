@@ -1,0 +1,82 @@
+code	name	level	category	filePath
+EXEC	Executive & Strategy	Category	Executive & Strategy	ExecutiveStrategy/index.mdx
+PROD	Product & Engineering	Category	Product & Engineering	ProductEngineering/index.mdx
+MKT	Marketing	Category	Marketing	Marketing/index.mdx
+SALES	Sales & Revenue	Category	Sales & Revenue	SalesRevenue/index.mdx
+SCM	Supply Chain & Logistics	Category	Supply Chain & Logistics	SupplyChainLogistics/index.mdx
+SVCDL	Service Delivery	Category	Service Delivery	ServiceDelivery/index.mdx
+CUST	Customer Success	Category	Customer Success	CustomerSuccess/index.mdx
+HR	Human Resources	Category	Human Resources	HumanResources/index.mdx
+IT	Information Technology	Category	Information Technology	InformationTechnology/index.mdx
+FIN	Finance	Category	Finance	Finance/index.mdx
+FAC	Facilities & Assets	Category	Facilities & Assets	FacilitiesAssets/index.mdx
+LEGAL	Legal & Compliance	Category	Legal & Compliance	LegalCompliance/index.mdx
+EXTRL	External Relations	Category	External Relations	ExternalRelations/index.mdx
+BIZDC	Business Development & Capabilities	Category	Business Development & Capabilities	BusinessDevelopmentCapabilities/index.mdx
+CEO	Office of the CEO	Department	Executive & Strategy	ExecutiveStrategy/OfficeOfTheCeo.mdx
+STRAT	Strategy & Planning	Department	Executive & Strategy	ExecutiveStrategy/StrategyPlanning.mdx
+CCOMM	Corporate Communications	Department	Executive & Strategy	ExecutiveStrategy/CorporateCommunications.mdx
+PMO	Project Management Office	Department	Executive & Strategy	ExecutiveStrategy/ProjectManagementOffice.mdx
+PM	Product Management	Department	Product & Engineering	ProductEngineering/ProductManagement.mdx
+ENG	Engineering	Department	Product & Engineering	ProductEngineering/Engineering.mdx
+DES	Design	Department	Product & Engineering	ProductEngineering/Design.mdx
+QA	Quality Assurance	Department	Product & Engineering	ProductEngineering/QualityAssurance.mdx
+DEVOP	DevOps & Platform	Department	Product & Engineering	ProductEngineering/DevopsPlatform.mdx
+RND	Research & Development	Department	Product & Engineering	ProductEngineering/ResearchDevelopment.mdx
+BRAND	Brand Marketing	Department	Marketing	Marketing/BrandMarketing.mdx
+CONT	Content Marketing	Department	Marketing	Marketing/ContentMarketing.mdx
+DEMGN	Demand Generation	Department	Marketing	Marketing/DemandGeneration.mdx
+PMKT	Product Marketing	Department	Marketing	Marketing/ProductMarketing.mdx
+MOPS	Marketing Operations	Department	Marketing	Marketing/MarketingOperations.mdx
+PR	Public Relations	Department	Marketing	Marketing/PublicRelations.mdx
+BDR	Business Development	Department	Sales & Revenue	SalesRevenue/BusinessDevelopment.mdx
+ISR	Inside Sales	Department	Sales & Revenue	SalesRevenue/InsideSales.mdx
+ENT	Enterprise Sales	Department	Sales & Revenue	SalesRevenue/EnterpriseSales.mdx
+SOPS	Sales Operations	Department	Sales & Revenue	SalesRevenue/SalesOperations.mdx
+CHAN	Channel & Partnerships	Department	Sales & Revenue	SalesRevenue/ChannelPartnerships.mdx
+REVOP	Revenue Operations	Department	Sales & Revenue	SalesRevenue/RevenueOperations.mdx
+PROC	Procurement	Department	Supply Chain & Logistics	SupplyChainLogistics/Procurement.mdx
+SCP	Supply Chain Planning	Department	Supply Chain & Logistics	SupplyChainLogistics/SupplyChainPlanning.mdx
+LOG	Logistics & Distribution	Department	Supply Chain & Logistics	SupplyChainLogistics/LogisticsDistribution.mdx
+MFG	Manufacturing	Department	Supply Chain & Logistics	SupplyChainLogistics/Manufacturing.mdx
+PSVC	Professional Services	Department	Service Delivery	ServiceDelivery/ProfessionalServices.mdx
+SVOPS	Service Operations	Department	Service Delivery	ServiceDelivery/ServiceOperations.mdx
+TRAIN	Training & Enablement	Department	Service Delivery	ServiceDelivery/TrainingEnablement.mdx
+CSUP	Customer Support	Department	Customer Success	CustomerSuccess/CustomerSupport.mdx
+CSM	Customer Success Management	Department	Customer Success	CustomerSuccess/CustomerSuccessManagement.mdx
+TSUP	Technical Support	Department	Customer Success	CustomerSuccess/TechnicalSupport.mdx
+CX	Customer Experience	Department	Customer Success	CustomerSuccess/CustomerExperience.mdx
+TA	Talent Acquisition	Department	Human Resources	HumanResources/TalentAcquisition.mdx
+LND	Learning & Development	Department	Human Resources	HumanResources/LearningDevelopment.mdx
+COMP	Compensation & Benefits	Department	Human Resources	HumanResources/CompensationBenefits.mdx
+ER	Employee Relations	Department	Human Resources	HumanResources/EmployeeRelations.mdx
+POPS	People Operations	Department	Human Resources	HumanResources/PeopleOperations.mdx
+DEI	Diversity Equity & Inclusion	Department	Human Resources	HumanResources/DiversityEquityInclusion.mdx
+INFRA	IT Infrastructure	Department	Information Technology	InformationTechnology/ItInfrastructure.mdx
+SEC	Cybersecurity	Department	Information Technology	InformationTechnology/Cybersecurity.mdx
+EAPPS	Enterprise Applications	Department	Information Technology	InformationTechnology/EnterpriseApplications.mdx
+ITSM	IT Service Management	Department	Information Technology	InformationTechnology/ItServiceManagement.mdx
+DENG	Data Engineering	Department	Information Technology	InformationTechnology/DataEngineering.mdx
+ACCT	Accounting	Department	Finance	Finance/Accounting.mdx
+FPA	Financial Planning & Analysis	Department	Finance	Finance/FinancialPlanningAnalysis.mdx
+TREAS	Treasury	Department	Finance	Finance/Treasury.mdx
+TAX	Tax	Department	Finance	Finance/Tax.mdx
+AP	Accounts Payable	Department	Finance	Finance/AccountsPayable.mdx
+AR	Accounts Receivable	Department	Finance	Finance/AccountsReceivable.mdx
+PAY	Payroll	Department	Finance	Finance/Payroll.mdx
+AUDIT	Internal Audit	Department	Finance	Finance/InternalAudit.mdx
+FACMG	Facilities Management	Department	Facilities & Assets	FacilitiesAssets/FacilitiesManagement.mdx
+RE	Real Estate	Department	Facilities & Assets	FacilitiesAssets/RealEstate.mdx
+PASST	Procurement & Asset Management	Department	Facilities & Assets	FacilitiesAssets/ProcurementAssetManagement.mdx
+CLEG	Corporate Legal	Department	Legal & Compliance	LegalCompliance/CorporateLegal.mdx
+CMLEG	Commercial Legal	Department	Legal & Compliance	LegalCompliance/CommercialLegal.mdx
+IP	Intellectual Property	Department	Legal & Compliance	LegalCompliance/IntellectualProperty.mdx
+REGC	Regulatory Compliance	Department	Legal & Compliance	LegalCompliance/RegulatoryCompliance.mdx
+PRIV	Privacy & Data Protection	Department	Legal & Compliance	LegalCompliance/PrivacyDataProtection.mdx
+RISK	Risk Management	Department	Legal & Compliance	LegalCompliance/RiskManagement.mdx
+GOV	Government Relations	Department	External Relations	ExternalRelations/GovernmentRelations.mdx
+IR	Investor Relations	Department	External Relations	ExternalRelations/InvestorRelations.mdx
+CR	Community Relations	Department	External Relations	ExternalRelations/CommunityRelations.mdx
+CDEV	Corporate Development	Department	Business Development & Capabilities	BusinessDevelopmentCapabilities/CorporateDevelopment.mdx
+BI	Business Intelligence	Department	Business Development & Capabilities	BusinessDevelopmentCapabilities/BusinessIntelligence.mdx
+INNOV	Innovation & Transformation	Department	Business Development & Capabilities	BusinessDevelopmentCapabilities/InnovationTransformation.mdx

@@ -1,0 +1,82 @@
+code	name	level	category	parent	apqcCategories	description
+EXEC	Executive & Strategy	Category	Executive & Strategy		01	Executive leadership, corporate strategy, and enterprise governance
+CEO	Office of the CEO	Department	Executive & Strategy	Executive & Strategy	01	Executive leadership and corporate governance
+STRAT	Strategy & Planning	Department	Executive & Strategy	Executive & Strategy	01	Strategic planning, competitive analysis, and long-term vision
+CCOMM	Corporate Communications	Department	Executive & Strategy	Executive & Strategy	01	Internal/external communications, media relations, brand voice
+PMO	Project Management Office	Department	Executive & Strategy	Executive & Strategy	01	Enterprise project governance, methodology, and portfolio management
+PROD	Product & Engineering	Category	Product & Engineering		02	Product development, engineering, design, and technical innovation
+PM	Product Management	Department	Product & Engineering	Product & Engineering	02	Product strategy, roadmaps, requirements, and lifecycle management
+ENG	Engineering	Department	Product & Engineering	Product & Engineering	02	Software/hardware development, architecture, and technical implementation
+DES	Design	Department	Product & Engineering	Product & Engineering	02	UX/UI design, user research, design systems, and prototyping
+QA	Quality Assurance	Department	Product & Engineering	Product & Engineering	02	Testing, quality standards, and release validation
+DEVOP	DevOps & Platform	Department	Product & Engineering	Product & Engineering	02	CI/CD, infrastructure, observability, and developer experience
+RND	Research & Development	Department	Product & Engineering	Product & Engineering	02	Innovation, applied research, and experimental prototyping
+MKT	Marketing	Category	Marketing		03	Brand, content, demand generation, and marketing operations
+BRAND	Brand Marketing	Department	Marketing	Marketing	03	Brand strategy, creative campaigns, and brand identity management
+CONT	Content Marketing	Department	Marketing	Marketing	03	Content strategy, creation, SEO, and editorial operations
+DEMGN	Demand Generation	Department	Marketing	Marketing	03	Lead generation, paid media, growth marketing, and conversion optimization
+PMKT	Product Marketing	Department	Marketing	Marketing	03	Positioning, messaging, competitive intelligence, and go-to-market
+MOPS	Marketing Operations	Department	Marketing	Marketing	03	Marketing analytics, automation, attribution, and tech stack management
+PR	Public Relations	Department	Marketing	Marketing	03	Media relations, analyst relations, crisis communications, and thought leadership
+SALES	Sales & Revenue	Category	Sales & Revenue		03	Sales execution, pipeline management, and revenue growth
+BDR	Business Development	Department	Sales & Revenue	Sales & Revenue	03	New market identification, strategic partnerships, and outbound prospecting
+ISR	Inside Sales	Department	Sales & Revenue	Sales & Revenue	03	Inbound lead qualification, demo delivery, and SMB deal closure
+ENT	Enterprise Sales	Department	Sales & Revenue	Sales & Revenue	03	Complex deal management, executive relationships, and strategic account growth
+SOPS	Sales Operations	Department	Sales & Revenue	Sales & Revenue	03	Pipeline management, forecasting, territory planning, and CRM administration
+CHAN	Channel & Partnerships	Department	Sales & Revenue	Sales & Revenue	03	Partner program management, channel enablement, and co-selling
+REVOP	Revenue Operations	Department	Sales & Revenue	Sales & Revenue	03,09	Cross-functional revenue alignment, data infrastructure, and process optimization
+SCM	Supply Chain & Logistics	Category	Supply Chain & Logistics		04	Procurement, planning, logistics, and manufacturing operations
+PROC	Procurement	Department	Supply Chain & Logistics	Supply Chain & Logistics	04	Strategic sourcing, vendor management, and purchase order processing
+SCP	Supply Chain Planning	Department	Supply Chain & Logistics	Supply Chain & Logistics	04	Demand planning, inventory optimization, and supply network design
+LOG	Logistics & Distribution	Department	Supply Chain & Logistics	Supply Chain & Logistics	04	Warehousing, shipping, freight management, and last-mile delivery
+MFG	Manufacturing	Department	Supply Chain & Logistics	Supply Chain & Logistics	04	Production planning, shop floor operations, and manufacturing engineering
+SVCDL	Service Delivery	Category	Service Delivery		05	Professional services, service operations, and client enablement
+PSVC	Professional Services	Department	Service Delivery	Service Delivery	05	Client implementation, consulting engagements, and solution delivery
+SVOPS	Service Operations	Department	Service Delivery	Service Delivery	05	Service scheduling, dispatch, resource allocation, and SLA management
+TRAIN	Training & Enablement	Department	Service Delivery	Service Delivery	05	Customer training programs, certification, and knowledge base management
+CUST	Customer Success	Category	Customer Success		06	Customer support, success management, and experience optimization
+CSUP	Customer Support	Department	Customer Success	Customer Success	06	Ticket resolution, live chat, phone support, and escalation management
+CSM	Customer Success Management	Department	Customer Success	Customer Success	06	Account health monitoring, renewal management, and expansion revenue
+TSUP	Technical Support	Department	Customer Success	Customer Success	06	Advanced troubleshooting, bug reproduction, and engineering escalation
+CX	Customer Experience	Department	Customer Success	Customer Success	06	Voice of customer, NPS programs, journey mapping, and experience optimization
+HR	Human Resources	Category	Human Resources		07	Talent management, people operations, and organizational development
+TA	Talent Acquisition	Department	Human Resources	Human Resources	07	Recruiting, employer branding, candidate experience, and hiring operations
+LND	Learning & Development	Department	Human Resources	Human Resources	07	Training programs, leadership development, and career pathing
+COMP	Compensation & Benefits	Department	Human Resources	Human Resources	07	Pay structures, equity programs, benefits administration, and total rewards
+ER	Employee Relations	Department	Human Resources	Human Resources	07	Workplace policies, conflict resolution, and employee engagement
+POPS	People Operations	Department	Human Resources	Human Resources	07	HRIS management, onboarding/offboarding, and HR process automation
+DEI	Diversity Equity & Inclusion	Department	Human Resources	Human Resources	07	DEI strategy, employee resource groups, and inclusive hiring practices
+IT	Information Technology	Category	Information Technology		08	IT infrastructure, security, applications, and data management
+INFRA	IT Infrastructure	Department	Information Technology	Information Technology	08	Network, servers, cloud infrastructure, and endpoint management
+SEC	Cybersecurity	Department	Information Technology	Information Technology	08	Security operations, threat detection, incident response, and compliance
+EAPPS	Enterprise Applications	Department	Information Technology	Information Technology	08	ERP, CRM, and business application administration and integration
+ITSM	IT Service Management	Department	Information Technology	Information Technology	08	Help desk, asset management, and IT service delivery
+DENG	Data Engineering	Department	Information Technology	Information Technology	08	Data pipelines, data warehousing, ETL, and data platform management
+FIN	Finance	Category	Finance		09	Financial planning, accounting, treasury, and fiscal management
+ACCT	Accounting	Department	Finance	Finance	09	General ledger, financial reporting, month-end close, and audit coordination
+FPA	Financial Planning & Analysis	Department	Finance	Finance	09	Budgeting, forecasting, variance analysis, and financial modeling
+TREAS	Treasury	Department	Finance	Finance	09	Cash management, banking relationships, investments, and liquidity management
+TAX	Tax	Department	Finance	Finance	09	Tax planning, compliance, filing, and transfer pricing
+AP	Accounts Payable	Department	Finance	Finance	09	Invoice processing, vendor payments, and expense management
+AR	Accounts Receivable	Department	Finance	Finance	09	Billing, collections, credit management, and cash application
+PAY	Payroll	Department	Finance	Finance	09	Payroll processing, tax withholding, and compensation disbursement
+AUDIT	Internal Audit	Department	Finance	Finance	09	Financial controls, process audits, and compliance verification
+FAC	Facilities & Assets	Category	Facilities & Assets		10	Facilities operations, real estate, and asset lifecycle management
+FACMG	Facilities Management	Department	Facilities & Assets	Facilities & Assets	10	Office operations, space planning, maintenance, and workplace services
+RE	Real Estate	Department	Facilities & Assets	Facilities & Assets	10	Lease management, site selection, and property portfolio management
+PASST	Procurement & Asset Management	Department	Facilities & Assets	Facilities & Assets	10	Capital asset tracking, disposal, and lifecycle management
+LEGAL	Legal & Compliance	Category	Legal & Compliance		11	Legal services, regulatory compliance, and enterprise risk management
+CLEG	Corporate Legal	Department	Legal & Compliance	Legal & Compliance	11	Corporate governance, M&A legal support, and entity management
+CMLEG	Commercial Legal	Department	Legal & Compliance	Legal & Compliance	11	Contract review, negotiation, and commercial agreements
+IP	Intellectual Property	Department	Legal & Compliance	Legal & Compliance	11	Patent strategy, trademark management, and IP portfolio protection
+REGC	Regulatory Compliance	Department	Legal & Compliance	Legal & Compliance	11	Regulatory monitoring, policy development, and compliance programs
+PRIV	Privacy & Data Protection	Department	Legal & Compliance	Legal & Compliance	11	Data privacy programs, GDPR/CCPA compliance, and privacy impact assessments
+RISK	Risk Management	Department	Legal & Compliance	Legal & Compliance	11	Enterprise risk assessment, mitigation planning, and business continuity
+EXTRL	External Relations	Category	External Relations		12	Government, investor, and community engagement
+GOV	Government Relations	Department	External Relations	External Relations	12	Lobbying, regulatory engagement, and public policy advocacy
+IR	Investor Relations	Department	External Relations	External Relations	12	Shareholder communications, earnings reporting, and investor engagement
+CR	Community Relations	Department	External Relations	External Relations	12	Corporate social responsibility, philanthropy, and community engagement
+BIZDC	Business Development & Capabilities	Category	Business Development & Capabilities		13	Corporate development, intelligence, and organizational transformation
+CDEV	Corporate Development	Department	Business Development & Capabilities	Business Development & Capabilities	13	M&A execution, due diligence, and post-merger integration
+BI	Business Intelligence	Department	Business Development & Capabilities	Business Development & Capabilities	13	Analytics, reporting, dashboards, and data-driven insights
+INNOV	Innovation & Transformation	Department	Business Development & Capabilities	Business Development & Capabilities	13	Digital transformation, process improvement, and change management

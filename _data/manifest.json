@@ -1,0 +1,64 @@
+{
+  "exportedAt": "2026-02-05T22:26:03.244Z",
+  "totalDepartments": 81,
+  "categories": 14,
+  "departments": 67,
+  "categoryStats": {
+    "Executive & Strategy": {
+      "total": 5,
+      "complete": 0
+    },
+    "Product & Engineering": {
+      "total": 7,
+      "complete": 0
+    },
+    "Marketing": {
+      "total": 7,
+      "complete": 0
+    },
+    "Sales & Revenue": {
+      "total": 7,
+      "complete": 0
+    },
+    "Supply Chain & Logistics": {
+      "total": 5,
+      "complete": 0
+    },
+    "Service Delivery": {
+      "total": 4,
+      "complete": 0
+    },
+    "Customer Success": {
+      "total": 5,
+      "complete": 0
+    },
+    "Human Resources": {
+      "total": 7,
+      "complete": 0
+    },
+    "Information Technology": {
+      "total": 6,
+      "complete": 0
+    },
+    "Finance": {
+      "total": 9,
+      "complete": 0
+    },
+    "Facilities & Assets": {
+      "total": 4,
+      "complete": 0
+    },
+    "Legal & Compliance": {
+      "total": 7,
+      "complete": 0
+    },
+    "External Relations": {
+      "total": 4,
+      "complete": 0
+    },
+    "Business Development & Capabilities": {
+      "total": 4,
+      "complete": 0
+    }
+  }
+}
