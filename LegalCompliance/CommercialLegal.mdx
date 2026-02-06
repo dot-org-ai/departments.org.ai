@@ -80,11 +80,9 @@ Contract review, negotiation, and commercial agreements
 
 ```mermaid
 graph LR
-  receiveRequest --> draftContract
   draftContract --> reviewRedlines
   reviewRedlines --> approveContract
-  approveContract --> executeContract
-  executeContract --> renewContract
+  approveContract --> renewContract
 ```
 
 ## Actor Relationships
