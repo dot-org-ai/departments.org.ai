@@ -73,7 +73,7 @@ Service scheduling, dispatch, resource allocation, and SLA management
 | Search | Description |
 |--------|-------------|
 | findOpenServiceRequests | Retrieve all unresolved service requests filtered by priority or category |
-| getSlAComplianceMetrics | Query SLA adherence rates by team, client, or time period |
+| getSlaComplianceMetrics | Query SLA adherence rates by team, client, or time period |
 | searchWorkOrdersByTechnician | List work orders assigned to a specific technician |
 | findEscalatedRequests | Retrieve service requests that have been escalated |
 
@@ -119,5 +119,5 @@ import { db } from '@headlessly/db'
 
 const dept = await db.departments.get('serviceOperations')
 const openRequests = await db.departments.search('findOpenServiceRequests', { priority: 'high' })
-const slaMetrics = await db.departments.search('getSlAComplianceMetrics', { period: '2026-Q1' })
+const slaMetrics = await db.departments.search('getSlaComplianceMetrics', { period: '2026-Q1' })
 ```

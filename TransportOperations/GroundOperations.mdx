@@ -73,10 +73,10 @@ Ground Operations manages gate assignments, ramp services, baggage handling, and
 
 | Search | Description |
 |--------|-------------|
-| findActiveturnarounds | List all aircraft currently in ground handling turnaround |
+| findActiveTurnarounds | List all aircraft currently in ground handling turnaround |
 | getGateAvailability | Check open gate positions for a time window and aircraft type |
 | searchMishandledBaggage | Find baggage that missed connections or was not delivered to the belt |
-| getturnaroundPerformance | Retrieve on-time turnaround metrics by station and time period |
+| getTurnaroundPerformance | Retrieve on-time turnaround metrics by station and time period |
 | findGroundIncidents | List ramp safety incidents filtered by station, date, or severity |
 
 ## Workflow
@@ -123,6 +123,6 @@ graph TD
 import { db } from '@headlessly/db'
 
 const dept = await db.departments.get('groundOperations')
-const turnarounds = await db.departments.search('findActiveturnarounds', { station: 'JFK' })
+const turnarounds = await db.departments.search('findActiveTurnarounds', { station: 'JFK' })
 const gates = await db.departments.search('getGateAvailability', { terminal: 'T4', window: '14:00-18:00' })
 ```
