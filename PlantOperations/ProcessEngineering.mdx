@@ -24,7 +24,7 @@ Process Engineering designs, optimizes, and scales manufacturing processes to ac
 | designManufacturingProcesses | Develop new process flows, routings, and work instructions for product introductions |
 | optimizeProcessParameters | Tune machine settings, cycle times, and operating conditions to improve yield and throughput |
 | conductProcessValidation | Execute IQ/OQ/PQ validation protocols to qualify new or changed processes |
-| driveContInuousImprovement | Lead Lean, Six Sigma, and kaizen initiatives to reduce waste and variation |
+| driveContinuousImprovement | Lead Lean, Six Sigma, and kaizen initiatives to reduce waste and variation |
 | maintainProcessDocumentation | Author and update standard operating procedures, control plans, and process FMEAs |
 
 ## Roles
@@ -34,7 +34,7 @@ Process Engineering designs, optimizes, and scales manufacturing processes to ac
 | processEngineeringManager | Leads the process engineering team and prioritizes improvement projects across the plant |
 | processEngineer | Designs, validates, and optimizes manufacturing processes and parameters |
 | continuousImprovementLead | Facilitates kaizen events, value stream mapping, and Lean/Six Sigma projects |
-| processtechnician | Supports trial runs, collects process data, and assists with parameter adjustments on the floor |
+| processTechnician | Supports trial runs, collects process data, and assists with parameter adjustments on the floor |
 
 ## Entities
 
@@ -95,7 +95,7 @@ graph LR
 graph TD
   processEngineeringManager -->|manages| processEngineer
   processEngineeringManager -->|manages| continuousImprovementLead
-  processEngineer -->|directs| processechnician
+  processEngineer -->|directs| processTechnician
   continuousImprovementLead -->|collaboratesWith| processEngineer
 ```
 

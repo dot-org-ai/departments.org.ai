@@ -21,7 +21,7 @@ Flight Operations manages pilot scheduling, flight planning, aircraft dispatch, 
 
 | Responsibility | Description |
 |---------------|-------------|
-| manageFlight Planning | Develop and file flight plans including routes, fuel calculations, and weather analysis |
+| manageFlightPlanning | Develop and file flight plans including routes, fuel calculations, and weather analysis |
 | coordinateAircraftDispatch | Authorize flight releases and monitor operational control of active flights |
 | ensureRegulatoryCompliance | Maintain adherence to FAA/ICAO regulations for flight operations and crew duty limits |
 | monitorFlightPerformance | Track on-time performance, fuel burn, and flight path deviations across the network |
@@ -87,7 +87,8 @@ Flight Operations manages pilot scheduling, flight planning, aircraft dispatch, 
 
 ```mermaid
 graph LR
-  createFlightPlan --> assignAircraft
+  createFlightPlan --> reviewFuelPolicy
+  reviewFuelPolicy --> assignAircraft
   assignAircraft --> issueDispatchRelease
   issueDispatchRelease --> monitorActiveFlight
   monitorActiveFlight --> amendFlightPlan

@@ -83,11 +83,12 @@ Pharmacy manages the procurement, compounding, dispensing, and monitoring of med
 
 ```mermaid
 graph LR
-  verifyOrder --> dispenseMedication
-  dispenseMedication --> flagInteraction
+  verifyOrder --> flagInteraction
   flagInteraction --> consultOnTherapy
-  consultOnTherapy --> compoundMedication
-  compoundMedication --> auditControlledSubstance
+  consultOnTherapy --> dispenseMedication
+  verifyOrder --> compoundMedication
+  compoundMedication --> dispenseMedication
+  dispenseMedication --> auditControlledSubstance
 ```
 
 ## Actor Relationships

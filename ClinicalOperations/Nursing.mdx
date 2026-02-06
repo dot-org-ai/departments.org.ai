@@ -86,6 +86,7 @@ Nursing delivers direct patient care across inpatient and outpatient settings, c
 
 ```mermaid
 graph LR
+  assignNurses --> assessPatient
   assessPatient --> updateCarePlan
   updateCarePlan --> administerMedication
   administerMedication --> documentCare

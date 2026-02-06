@@ -1,5 +1,5 @@
 ---
-name: 'Admissions'
+name: 'Student Admissions'
 code: 'ADMIS'
 level: Department
 category: 'Academic Operations'
@@ -9,13 +9,13 @@ industries: ['6113']
 minTier: medium
 ---
 
-# Admissions
+# Student Admissions
 
-> Business-as-Code definition for the Admissions department. Models responsibilities, actions, events, and searches.
+> Business-as-Code definition for the Student Admissions department. Models responsibilities, actions, events, and searches.
 
 ## Overview
 
-Admissions manages the full student recruitment and enrollment pipeline, from prospect outreach through application review, decision notification, and enrollment confirmation. The department balances institutional enrollment targets with academic selectivity standards to shape each incoming class.
+Student Admissions manages the full student recruitment and enrollment pipeline, from prospect outreach through application review, decision notification, and enrollment confirmation. The department balances institutional enrollment targets with academic selectivity standards to shape each incoming class.
 
 ## Responsibilities
 
@@ -125,7 +125,7 @@ graph TD
 ```typescript
 import { db } from '@headlessly/db'
 
-const dept = await db.departments.get('admissions')
+const dept = await db.departments.get('studentAdmissions')
 const pendingApps = await db.departments.search('findApplicationsByStatus', { status: 'pending' })
 const yieldData = await db.departments.search('getYieldMetrics', { cycle: '2026-fall' })
 ```
